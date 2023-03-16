@@ -178,6 +178,6 @@ app.get("/result", (req, res) => {
   res.send(score);
 });
 
-app.listen(port, () => {
+app.listen(process.env.PORT || 3000, () => {
   console.log(`Example app listening on port ${port}`);
 });
