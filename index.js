@@ -21,7 +21,7 @@ app.post("/slack", (req, res) => {
   var request = require("request");
   var options = {
     method: "POST",
-    url: "https://hooks.slack.com/services/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",
+    url: "https://hooks.slack.com/services/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",
     headers: {
       "Content-Type": "application/json",
     },
